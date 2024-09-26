@@ -1,0 +1,103 @@
+<html>
+
+
+
+
+
+
+    <head>
+
+
+        <style>
+             .card{
+                height: 600px;
+                width: 400px;
+                background-color: beige;
+                border-style: solid;
+                border-radius: 20px;
+            }
+
+            .left{
+                font-size: 50px;
+                margin-left: 10px;
+                height: 20%;
+                
+            }
+
+            .right{
+                font-size: 50px;
+                margin-right: 10px;
+                height: 20%;
+                display: flex;
+                flex-direction: column;
+                transform: rotate(180deg);
+                
+            }
+
+            .middle{
+                height: 60%;
+                font-size: 110px;
+                margin-left: 25px;
+                margin-right: 25px;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-row-gap: 70px;
+                align-content: center;
+                justify-items: center;
+                
+            }
+
+            #snudd{
+                transform: rotate(180deg);
+            }
+
+
+
+        </style>
+    </head>
+
+
+    <body> 
+
+        <div class="container"> 
+    
+            <div class="card"> 
+    
+                <div class="left"> 
+    
+                    <div>6</div> 
+    
+                    <div>&clubs;</div>  
+    
+                </div> 
+    
+                <div class="middle"> 
+    
+                    <div>&clubs;</div> 
+    
+                    <div>&clubs;</div> 
+    
+                    <div>&clubs;</div> 
+    
+                    <div>&clubs;</div> 
+    
+                    <div id="snudd">&clubs;</div> 
+    
+                    <div id="snudd">&clubs;</div> 
+    
+                </div> 
+    
+                <div class="right"> 
+    
+                    <div>6</div> 
+    
+                    <div>&clubs;</div> 
+    
+                </div> 
+    
+            </div> 
+    
+        </div> 
+    
+    </body> 
+</html>
